@@ -32,5 +32,8 @@ features or improvements that were left unmerged from PaperMod.
     > Conceptually different from a content summary, a page description is typically used in metadata about the page.
 - Add last modified date to post header (adityatelange/hugo-PaperMod#1337)
 
+## Demo
+
+There is also a [demo](https://kamimod.8hob.io).
 
 [PaperMod]: https://github.com/adityatelange/hugo-PaperMod
