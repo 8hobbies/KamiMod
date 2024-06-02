@@ -31,3 +31,6 @@
 
 - id: code_copied
   translation: "已複製！"
+
+- id: related_posts
+  translation: "相關貼文"
