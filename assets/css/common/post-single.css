@@ -299,6 +299,15 @@
     margin-bottom: 10px;
 }
 
+.post-footer .related a {
+    box-shadow: 0 1px;
+}
+
+.post-footer .related h2 {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
 .post-tags {
     display: flex;
     flex-wrap: wrap;
