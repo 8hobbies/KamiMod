@@ -44,7 +44,7 @@
 
   <footer class="post-footer">
     {{/*  Show related posts  */}}
-    {{- if (.Param "ShowRelatedContent") }}
+    {{- if (.Param "RelatedPostsCount") }}
       {{- partial "related.html" . }}
     {{- end }}
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
