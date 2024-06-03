@@ -54,6 +54,10 @@ You may follow the [installation instructions from PaperMod](https://adityatelan
 - Replace `https://github.com/adityatelange/hugo-PaperMod` with `https://github.com/8hobbies/KamiMod`.
 - Replace all other occurrences of `PaperMod` with `KamiMod`.
 
+## Configurations
+
+Except for the features listed above, please follow the [PaperMod doc](https://github.com/adityatelange/hugo-PaperMod/wiki/Features) for configurations.
+
 ## Demo
 
 There is also a [live demo](https://kamimod.8hob.io), along with [its source code](https://github.com/8hobbies/KamiMod-example-site).
