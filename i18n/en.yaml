@@ -34,3 +34,6 @@
 
 - id: related_posts
   translation: "Related Posts"
+
+- id: updated
+  translation: "Updated"

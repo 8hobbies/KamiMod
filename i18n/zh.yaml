@@ -34,3 +34,6 @@
 
 - id: related_posts
   translation: "相关文章"
+
+- id: updated
+  translation: "更新于"
