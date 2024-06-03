@@ -12,7 +12,7 @@ end_insert -->
 # KamiMod: An Incremental [PaperMod][] Fork
 <!-- end_remove -->
 
-KamiMod makes a few incremental changes to [PaperMod][].
+KamiMod makes a few incremental changes to [PaperMod][]. This fork regularly syncs up with PaperMod.
 
 ## Features
 
@@ -31,6 +31,13 @@ features or improvements that were left unmerged from PaperMod.
   - [`.Description` is meant to be used for metadata purpose](https://gohugo.io/methods/page/description/):
     > Conceptually different from a content summary, a page description is typically used in metadata about the page.
 - Add last modified date to post header (adityatelange/hugo-PaperMod#1337)
+
+## Installation
+
+You may follow the [installation instructions from PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/), with the following changes:
+
+- Replace https://github.com/adityatelange/hugo-PaperMod with https://github.com/8hobbies/KamiMod
+- Replace all other occurrences of `PaperMod` with `KamiMod`.
 
 ## Demo
 
