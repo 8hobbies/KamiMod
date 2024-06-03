@@ -3,7 +3,8 @@
 title: "KamiMod: An Incremental PaperMod Fork"
 date: 2024-06-02
 author: "8 Hobbies"
-tags: ["themes"]
+tags: ["kamimod", "themes"]
+description: "KamiMod is an incremental fork of PaperMod."
 ---
 end_insert -->
 <!-- Powered by https://cj.rs/riss -->
