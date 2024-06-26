@@ -45,7 +45,7 @@ features or improvements that have been left unmerged from PaperMod.
 
 ### Add an option to exclude pages from the RSS feed
 
-- Setting `params.hiddenFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
+- Setting `params.excludeFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
 
 ### Remove the use of `accesskey` to improve accessibility
 
