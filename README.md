@@ -37,11 +37,9 @@ features or improvements that have been left unmerged from PaperMod.
   > Conceptually different from a content summary, a page description is typically used in metadata about the page.
 - Set `params.showDescription` to `true` to display descriptions, or `false` to hide descriptions. Default: `false`.
 
-### Improvement over `showFullTextinRSS`
+### Allow setting `ShowFullTextinRSS` in individual pages
 
-- [adityatelange/hugo-PaperMod#1542](https://github.com/adityatelange/hugo-PaperMod/pull/1542) (partly)
-- Allow setting ShowFullTextinRSS in individual pages.
-- Show summary instead of full text in RSS with `showFullTextinRSS = summary`.  This is useful when pages have `description` set and the blogger intends not adding full text to the RSS feed.
+- [adityatelange/hugo-PaperMod#1542](https://github.com/adityatelange/hugo-PaperMod/pull/1542)
 
 ### Add an option to exclude pages from the RSS feed
 

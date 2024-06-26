@@ -73,14 +73,8 @@
       {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
       <guid>{{ .Permalink }}</guid>
       <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
-      {{- $encodedContent := false -}}
-      {{- if and (eq (.Param "ShowFullTextinRSS") true) .Content -}}
-        {{- $encodedContent = (.Content) -}}
-      {{- else if and (eq (.Param "ShowFullTextinRSS") "summary") .Summary -}}
-        {{- $encodedContent = (.Summary) -}}
-      {{- end -}}
-      {{- with $encodedContent }}
-      <content:encoded>{{ (printf "<![CDATA[%s]]>" .) | safeHTML }}</content:encoded>
+      {{- if and (.Param "ShowFullTextinRSS") .Content }}
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       {{- end }}
     </item>
     {{- end }}
