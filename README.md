@@ -45,6 +45,8 @@ features or improvements that have been left unmerged from PaperMod.
 
 - Setting `params.excludeFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
 
+## Changes
+
 ### Remove the use of `accesskey` to improve accessibility
 
 - [adityatelange/hugo-PaperMod#1494](https://github.com/adityatelange/hugo-PaperMod/pull/1494)
@@ -55,6 +57,10 @@ features or improvements that have been left unmerged from PaperMod.
 
 - [adityatelange/hugo-PaperMod#1488](https://github.com/adityatelange/hugo-PaperMod/pull/1488)
 - `thumbnailUrl` is not part of the [Organization schema](https://schema.org/Organization).
+
+### Use `.Summary` as RSS description instead of `.Description`
+
+- [Hugo description](https://gohugo.io/methods/page/description/) is conceptually for [metadata about a page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_an_author_and_description). Using `.Description` in RSS leads to very little information for readers.
 
 ## Installation
 
