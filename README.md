@@ -43,6 +43,10 @@ features or improvements that have been left unmerged from PaperMod.
 - Allow setting ShowFullTextinRSS in individual pages.
 - Show summary instead of full text in RSS with `showFullTextinRSS = summary`.  This is useful when pages have `description` set and the blogger intends not adding full text to the RSS feed.
 
+### Add an option to exclude pages from the RSS feed
+
+- Setting `params.hiddenFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
+
 ### Remove the use of `accesskey` to improve accessibility
 
 - [adityatelange/hugo-PaperMod#1494](https://github.com/adityatelange/hugo-PaperMod/pull/1494)
