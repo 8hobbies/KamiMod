@@ -1,1 +1,4 @@
-
+{{- /* robots.txt custom content area start */ -}}
+{{- /*     Insert any custom code here - it will appear in the robots.txt file. */ -}}
+{{- /*     Can be overwritten by partial with the same name in the global layouts. */ -}}
+{{- /* robots.txt custom content area end */ -}}
