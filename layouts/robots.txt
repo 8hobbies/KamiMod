@@ -5,3 +5,4 @@ Disallow:
 Disallow: /
 {{- end }}
 Sitemap: {{ "sitemap.xml" | absURL }}
+{{ partial "extend_robots.txt" . -}}

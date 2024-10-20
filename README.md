@@ -20,7 +20,7 @@ KamiMod makes a few incremental changes to [PaperMod][]. This fork regularly syn
 This theme adds the following features and quality improvements on top of PaperMod. They are
 features or improvements that have been left unmerged from PaperMod.
 
-### Related Posts
+### Show Related Posts
 
 - Corresponding to [adityatelange/hugo-PaperMod#1049](https://github.com/adityatelange/hugo-PaperMod/pull/1049), with different implementation.
 - Configurable via `params.RelatedPostsCount`. `0` means no related posts. A positive number indicates the maximum number of related posts appended to the end of each post. Default: `0`.
@@ -44,6 +44,10 @@ features or improvements that have been left unmerged from PaperMod.
 ### Add an option to exclude pages from the RSS feed
 
 - Setting `params.excludeFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
+
+### Allow Extending `robots.txt`
+
+- Content from `layouts/partials/extend_robots.txt` will be appended to the builtin `robots.txt` file.
 
 ## Fixes and Changes
 
