@@ -46,9 +46,13 @@ features or improvements that have been left unmerged from PaperMod.
 
 - Setting `params.excludeFromRSS` to true in the frontmatter of a page to exclude it from the RSS feed.
 
-### Allow Extending `robots.txt`
+### Allow extending `robots.txt`
 
 - Content from `layouts/partials/extend_robots.txt` will be appended to the builtin `robots.txt` file.
+
+### Set preferred name for serach engines
+
+[Google relies the `WebSite` structured data](https://developers.google.com/search/docs/appearance/site-names#website) to find out the site name and homepage URL.
 
 ## Fixes and Changes
 

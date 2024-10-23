@@ -1,6 +1,14 @@
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
+  "@context" : "https://schema.org",
+  "@type" : "WebSite",
+  "name" : "{{ site.Title }}",
+  "url" : "{{ site.Home.Permalink }}"
+}
+</script>
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
   "name": {{ site.Title }},
