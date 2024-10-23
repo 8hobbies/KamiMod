@@ -29,6 +29,7 @@ features or improvements that have been left unmerged from PaperMod.
 ### Add last modified date to post header
 
 - [adityatelange/hugo-PaperMod#1337](https://github.com/adityatelange/hugo-PaperMod/pull/1337)
+- Use the `time` tag instead of `span` to express post dates.
 
 ### Add an option `params.showDescription` to not display descriptions
 
