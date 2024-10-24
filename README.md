@@ -79,6 +79,10 @@ features or improvements that have been left unmerged from PaperMod.
 
 - `site.Params.Title` seems redundant and only used once in PaperMod.
 
+### Don't show an output format as `<link rel=...>` if `rel` is empty
+
+- Many custom output formats don't need such a link element.
+
 ## Installation
 
 You may follow the [installation instructions from PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/), with the following changes:
