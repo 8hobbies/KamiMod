@@ -4,6 +4,9 @@
   "@context" : "https://schema.org",
   "@type" : "WebSite",
   "name" : {{ site.Title }},
+  {{ with site.Params.alternateSiteNames -}}
+  "alternateName": {{ site.Params.alternateSiteNames }},
+  {{ end -}}
   "url" : {{ site.Home.Permalink }}
 }
 </script>

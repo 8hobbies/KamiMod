@@ -79,6 +79,17 @@ features or improvements that have been left unmerged from PaperMod.
 
 - `site.Params.Title` seems redundant and only used once in PaperMod.
 
+### Allow specifying `alternateName` in the `WebSite` structured data
+
+[`alternateName`](https://developers.google.com/search/docs/appearance/site-names#alternative) is
+used by Google to select a name of the site. In addition to `title`, you can specify alternate
+site names in `params.alternateSiteNames`:
+
+```yaml
+params:
+  alternateSiteNames: ["Name1", "Name2"]
+```
+
 ### Don't show an output format as `<link rel=...>` if `rel` is empty
 
 - Many custom output formats don't need such a link element.
