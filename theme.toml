@@ -37,7 +37,7 @@ features = [
 min_version = "0.126.0"
 
 [author]
-  name = "8 Hobbies, LLC"
+  name = "8 Hobbies JavaScript Blog"
   homepage = "https://8hob.io"
 
 [original]

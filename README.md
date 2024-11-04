@@ -1,8 +1,8 @@
 <!-- insert
 ---
 title: "KamiMod: An Incremental PaperMod Fork"
-date: 2024-06-02
-author: "8 Hobbies"
+date: 2024-11-04
+author: "8 Hobbies JavaScript Blog"
 tags: ["kamimod", "themes"]
 description: "KamiMod is an incremental fork of PaperMod."
 ---
