@@ -1,4 +1,4 @@
-{{- $pageurl := .Permalink }}
+{{- $pageurl := (printf "%v%v" .Permalink "?utm_medium=sharing") }}
 {{- $title := .Title }}
 
 {{- $.Scratch.Set "tags" ""}}

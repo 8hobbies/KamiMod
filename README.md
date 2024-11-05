@@ -48,7 +48,7 @@ features or improvements that have been left unmerged from PaperMod.
 
 ### Allow extending `robots.txt`
 
-- Content from `layouts/partials/extend_robots.txt` will be appended to the builtin `robots.txt` file.
+- Content from `layouts/partials/extend_robots.txt` is appended to the builtin `robots.txt` file.
 
 ### Set preferred name for serach engines
 
@@ -78,6 +78,11 @@ features or improvements that have been left unmerged from PaperMod.
 ### Use `site.Title` instead of `site.Params.Title`
 
 - `site.Params.Title` seems redundant and only used once in PaperMod.
+
+### Add `utm_*` params to various places
+
+- The `utm_medium=sharing` param is added to the URLs shared by the share buttons.
+- The `utm_medium=rss` param is added to the RSS links.
 
 ### Allow specifying `alternateName` in the `WebSite` structured data
 
