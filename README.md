@@ -56,11 +56,6 @@ features or improvements that have been left unmerged from PaperMod.
 
 ## Fixes and Changes
 
-### Replace `thumbnailUrl` with `logo` in the schema
-
-- [adityatelange/hugo-PaperMod#1488](https://github.com/adityatelange/hugo-PaperMod/pull/1488)
-- `thumbnailUrl` is not part of the [Organization schema](https://schema.org/Organization).
-
 ### `<image><link>` in RSS should link to the permalink
 
 - [adityatelange/hugo-PaperMod#1545](https://github.com/adityatelange/hugo-PaperMod/pull/1545)
