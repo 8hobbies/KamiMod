@@ -70,10 +70,6 @@ features or improvements that have been left unmerged from PaperMod.
 
 - [Hugo description](https://gohugo.io/methods/page/description/) is conceptually for [metadata about a page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_an_author_and_description). Using `.Description` in RSS leads to very little information for readers.
 
-### Use `site.Title` instead of `site.Params.Title`
-
-- `site.Params.Title` seems redundant and only used once in PaperMod.
-
 ### Add `utm_*` params to various places
 
 - The `utm_medium=sharing` param is added to the URLs shared by the share buttons.
