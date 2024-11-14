@@ -54,6 +54,17 @@ features or improvements that have been left unmerged from PaperMod.
 
 [Google relies the `WebSite` structured data](https://developers.google.com/search/docs/appearance/site-names#website) to find out the site name and homepage URL.
 
+#### Allow specifying `alternateName` in the `WebSite` structured data
+
+[`alternateName`](https://developers.google.com/search/docs/appearance/site-names#alternative) is
+used by Google to select a name of the site. In addition to `title`, you can specify alternate
+site names in `params.alternateSiteNames`:
+
+```yaml
+params:
+  alternateSiteNames: ["Name1", "Name2"]
+```
+
 ## Fixes and Changes
 
 ### `<image><link>` in RSS should link to the permalink
@@ -74,17 +85,6 @@ features or improvements that have been left unmerged from PaperMod.
 
 - The `utm_medium=sharing` param is added to the URLs shared by the share buttons.
 - The `utm_medium=rss` param is added to the RSS links.
-
-### Allow specifying `alternateName` in the `WebSite` structured data
-
-[`alternateName`](https://developers.google.com/search/docs/appearance/site-names#alternative) is
-used by Google to select a name of the site. In addition to `title`, you can specify alternate
-site names in `params.alternateSiteNames`:
-
-```yaml
-params:
-  alternateSiteNames: ["Name1", "Name2"]
-```
 
 ### Don't show an output format as `<link rel=...>` if `rel` is empty
 
