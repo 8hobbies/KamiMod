@@ -1,4 +1,3 @@
-<!-- insert
 ---
 title: "KamiMod: An Incremental PaperMod Fork"
 date: 2024-11-04

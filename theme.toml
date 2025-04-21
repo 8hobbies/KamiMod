@@ -3,6 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/8hobbies/KamiMod/blob/master/LICENSE"
 description = "A fast, clean, responsive Hugo theme"
 homepage = "https://github.com/8hobbies/KamiMod"
+demosite = "https://kamimod.8hob.io"
 tags = [
   "responsive",
   "simple",
@@ -34,7 +35,11 @@ features = [
   "scroll-to-top",
   "search"
 ]
+<<<<<<< HEAD
 min_version = "0.126.0"
+=======
+min_version = "0.146.0"
+>>>>>>> upstream/master
 
 [author]
   name = "8 Hobbies JavaScript Blog"
